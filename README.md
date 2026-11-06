@@ -17,7 +17,7 @@
 
 | Project | What it does | Result | Stack |
 |---|---|---|---|
-| [**KORE**](https://github.com/Vladislav-Kor/kore) | Windows load console. Caps runaway background processes with Job Objects instead of killing them; live CPU/GPU/RAM charts; RAM module report with an overclock warning | v1.0, no telemetry | Rust, egui, wgpu, Win32 |
+| [**KORE**](https://github.com/Vladislav-Kor/kore) | Windows load console. Caps runaway background processes with Job Objects instead of killing them; live CPU/GPU/RAM charts; RAM module report with an overclock warning | v1.0, no telemetry | Rust, egui, wgpu; guard in C# + PowerShell |
 | **AI manager for Avito chats** · client work, code private | Polls marketplace chats every 30 s, drafts two reply options; the owner sends one with a single tap in Telegram | RAG over 12,000+ dialogs, voice messages via Whisper, every draft auto-checked | Python, OpenAI API, Whisper, SQLite |
 | **Lead-intake bot with a local LLM** · code private | Takes requests, quotes, hands the client to the owner; skills exposed through an MCP server | Passes a 45-question automated exam before each release | aiogram 3, Ollama, MCP |
 | **korindustries.ru** · code private | Business site with an admin panel, React SSR, pre-rendered pages served without PHP | First Contentful Paint 5–6 s → 1.0–1.3 s on slow 4G | Laravel 13, React 19, Docker |
